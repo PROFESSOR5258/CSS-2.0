@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        @font-face {
+            font-family: psl;
+            src: url(Sakana.ttf);
+        }
+        body{
+            background-color: lightgrey;
+        }
+
+        button{
+            border:5px solid white;
+            margin-top: 200px;
+            border-radius: 10px;
+            padding: 10px 30px;
+            font-size: 17px;
+            color: white;
+            font-family: psl;
+            text-align:center;
+        }
+
+        button:hover{
+            color:black;
+            border:5px solid black;
+        }
+
+        .abc{
+            background: linear-gradient(to left,purple,deeppink);
+            
+        }
+        .abc:hover{
+            background: linear-gradient(to left,deeppink,purple);
+        }
+
+        .xyz{
+            background: linear-gradient(to left,limegreen,yellow);
+            font-family: psl;
+        }
+        .xyz:hover{
+            background: linear-gradient(to left,yellow,limegreen);
+        }
+
+        .pqr{
+            background: linear-gradient(to left,gold,orangered);
+        }
+
+        .pqr:hover{
+            
+            background: linear-gradient(to left,orangered,gold);
+        }
+        
+    </style>
+    
+</head>
+<body>
+
+    <button class="abc"><span class="fa fa-trash"> </span>REMOVE CLIENT </button>
+    <button class="xyz"><span class="fa fa-pencil"> </span>UPDATE CLIENT</button>
+    <button class="pqr"><span class="fa fa-home"></span> HOME</button>
+    <button class="abc"><span class="fa fa-plus"></span> ADD CLIENT</button>
+    <button class="xyz"><span class="fa fa-arrow-left"></span> ADD CLIENT</button>
+    <button class="pqr"> ADD CLIENT<span class="fa fa-arrow-right"></span></button>
+    
+</body>
+</html>

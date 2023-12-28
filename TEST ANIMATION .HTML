@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        h1{
+            animation-name: abc;
+            animation-duration: 5s;
+            color: red;
+            margin-left: 30%;
+        }
+
+        @keyframes abc {
+                from{
+                    margin-left: 100%;
+                }
+                to{
+                    margin-left: 30%;
+                }
+            
+        }
+    </style>
+    
+</head>
+<body>
+
+    <h1>ACCENTURE</h1>
+
+    <br><br><br>
+
+    <button onclick="myfun()">RELOAD</button>
+
+
+    <script>
+        function myfun(){
+            location.reload();
+        }
+    </script>
+    
+</body>
+</html>

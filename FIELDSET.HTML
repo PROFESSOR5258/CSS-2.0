@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+
+    <style>
+
+        h2{
+            color: darkred;
+            
+        }
+
+        table{
+            width: 100%;
+        
+        }
+
+        td{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 70%; 
+        }
+
+        body{
+            background-color: gold;
+            font-size: 17px;
+        }
+
+        fieldset{
+        border: 2px solid white;
+        padding: 20px;
+        margin-bottom: 30px;
+        width: 80%;
+
+        }
+
+        legend{
+            font-size: 23px;
+            color: orangered;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+
+        input[type="text"],select,textarea,input[type="number"]{
+            padding: 7px;
+            border: none;
+            width: 40%;
+            border-radius: 3px;
+        }
+
+        .mybutton{
+            padding: 5px;
+            border: none;
+            width: 20%;
+            font-size: 17px;
+            background-color: hotpink;
+            color: white;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+
+        .mybutton:hover{
+            background-color: darkmagenta;
+            color: white;
+        }
+
+        .datashift{
+            float: right;
+            font-size:18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+
+    <form>
+
+    <center>
+       <h2> CAMPUS REGISTRATION FORM</h2>
+    </center>
+
+    <fieldset>
+
+        <legend>PERSONAL INFORMATION </legend>
+
+        <table cellpadding="7" >
+            <tr>
+                <td class="datashift">FIRST NAME</td>
+                <td><input type="text" name="fname"></td>
+            </tr>
+
+            <tr>
+                <td class="datashift">LAST NAME</td>
+                <td><input type="text" name="lname"></td>
+            </tr>
+
+            <tr>
+                <td class="datashift">BRANCH</td>
+                <td>
+                    <select>
+                        <option value="" disabled selected>--------------------SELECT BRANCH--------------------</option>
+                        <option value="Mechanical">MECHANICAL</option>
+                        <option value="Civil">CIVIL</option>
+                        <option value="IT">INFORMATION TECHNOLOGY</option>
+                        <option value="AI">ARTIFICIAL INTELLIGENCE</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="datashift">EMAIL ID</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+
+            <tr>
+                <td class="datashift">PHONE NO.</td>
+                <td><input type="number" name="phoneno"></td>
+            </tr>
+        </table>
+
+        </fieldset>
+
+        <fieldset>
+        <legend>ACADEMIC INFORMATION DETAILS</legend>
+
+        <table cellpadding="7" >
+
+            <tr>
+                <td class="datashift">LAST QUALIFICATION</td>
+                <td><input type="radio" name="graduate">POST GRADUATE
+                <input type="radio" name="graduate">GRADUATE</td>
+            </tr>
+
+            <tr>
+                <td class="datashift">12th MARKS</td>
+                <td><input type="number" name="12"></td>
+            </tr>
+
+            <tr>
+                <td class="datashift">10th MARKS</td>
+                <td><input type="number" name="10"></td>
+            </tr>
+
+            <tr>
+                <td class="datashift">ANY CERTIFICATION</td>
+                <td><input type="file" name="file"></td>
+            </tr>
+
+        </table>
+
+        </fieldset>
+
+        <fieldset>
+
+        <legend>PROJECT DETAILS </legend>
+
+        <table cellpadding="7" >
+
+            <tr>
+                <td class="datashift">PROJECT TITLE</td>
+                <td><input type="text" name="pname"></td>
+            </tr>
+
+            <tr>
+                <td class="datashift">TOTAL TEAM MEMBERS</td>
+                <td><input type="number" name="team members"></td>
+            </tr>
+
+            <tr>
+                <td class="datashift">PROJECT ROLE</td>
+                <td><input type="radio" name="role">FRONT END
+                    <input type="radio" name="role">BACK END
+                    <input type="radio" name="role">WEB DEVOLOPER
+                </td>
+            </tr>
+
+            <tr>
+                <td class="datashift">TECHNOLOGY USED</td>
+                <td><input type="text" name="tech-used"></td>
+            </tr>
+
+            <tr>
+                <td class="datashift">PROJECT DETAILS</td>
+                <td><textarea name="p-details"  cols="80" rows="5">
+
+                </textarea></td>
+            </tr>
+
+            
+
+
+
+        </table>
+
+    </fieldset>
+
+    <center>
+    <tr>
+        <td>
+            <button class="mybutton">GO TO DASHBOARD</button>
+            <input type="submit" value="REGISTER" class="mybutton">
+            <input type="reset" value="RESET" class="mybutton">
+            <button class="mybutton">LOG OUT</button>
+        </td>
+    </tr>
+    </center>
+
+    </form>
+    
+</body>
+</html>

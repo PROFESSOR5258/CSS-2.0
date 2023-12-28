@@ -1,0 +1,21 @@
+#brandname{
+    background-color: cornflowerblue;
+    color:#000123;
+    padding: 10px;
+}
+
+body{
+    margin:0px;
+}
+
+#tagline{
+    margin-top: -20px;
+}
+
+h2{
+    background-color: deeppink;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+

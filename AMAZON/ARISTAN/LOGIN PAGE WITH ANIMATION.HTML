@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>WWW.HDFCBANK.COM</title>
+
+    <style>
+
+        body{
+            background-image: url("pics/22.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        table{
+            margin-top: 200px;
+            margin-left: 200px;
+        }
+
+        .abc{
+            padding: 5px;
+            font-size: 17px;
+            border-radius: 2px;
+            border: none;
+            width:97%;
+        }
+
+        .xyz{
+            padding: 5px;
+            font-size: 15px;
+            width: 100%;
+            background-color: #000123;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .xyz:hover{
+            background-color: gold;
+            color: black;
+            cursor: pointer;
+        }
+
+        #login_table{
+            border: 3px solid white;
+            border-radius: 5px;
+
+            /* ANIMATION */
+            animation-name: rightleft;
+            animation-duration: 2s;
+            
+        }
+
+        @keyframes rightleft{
+            from{
+                margin-left: -20%;
+            }
+            to{
+                margin-left: 13%;
+            }
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    
+
+    <table align="center" width="25%" id="login_table">
+
+        <tr>
+            <th>CRM Login</th>
+        </tr>
+
+        <tr>
+            <td><input type="text" placeholder="Username" class="abc"></td>
+        </tr>
+        <tr>
+            <td><input type="password" placeholder="Password" class="abc"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Login" class="xyz"></td>
+        </tr>
+        <tr>
+            <td><input type="reset" value="Reset" class="xyz"></td>
+        </tr>
+
+    </table>
+
+    
+    
+</body>
+</html>
